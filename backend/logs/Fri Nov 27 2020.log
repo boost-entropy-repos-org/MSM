@@ -1,0 +1,65 @@
+[2020-11-27T00:12:10.902] [INFO] default - Connected to Database: MSM
+[2020-11-27T00:12:15.431] [ERROR] default - Failed to create a new customer with name Harsha - SequelizeDatabaseError: The conversion of the nvarchar value '7019215587' overflowed an int column. - Error
+    at exports.addCustomer (C:\Working\My-Projects\MSM-Workspace\MSM\backend\controllers\customer.js:22:91)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2020-11-27T00:12:27.706] [ERROR] default - Failed to create a new customer with name Harsha - SequelizeDatabaseError: Arithmetic overflow error converting expression to data type int. - Error
+    at exports.addCustomer (C:\Working\My-Projects\MSM-Workspace\MSM\backend\controllers\customer.js:22:91)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2020-11-27T00:12:59.809] [INFO] default - Connected to Database: MSM
+[2020-11-27T00:13:03.320] [ERROR] default - Failed to create a new customer with name Harsha - ReferenceError: info is not defined - Error
+    at exports.addCustomer (C:\Working\My-Projects\MSM-Workspace\MSM\backend\controllers\customer.js:22:91)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2020-11-27T00:14:24.823] [ERROR] default - Failed to create a new customer with name Harsha - ReferenceError: info is not defined - Error
+    at exports.addCustomer (C:\Working\My-Projects\MSM-Workspace\MSM\backend\controllers\customer.js:22:91)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2020-11-27T00:16:18.215] [INFO] default - Connected to Database: MSM
+[2020-11-27T00:16:23.164] [ERROR] default - Failed to create a new customer with name Harsha - ReferenceError: info is not defined - Error
+    at exports.addCustomer (C:\Working\My-Projects\MSM-Workspace\MSM\backend\controllers\customer.js:22:91)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2020-11-27T00:18:52.242] [INFO] default - Connected to Database: MSM
+[2020-11-27T00:18:58.527] [INFO] default - Connected to Database: MSM
+[2020-11-27T00:19:28.172] [ERROR] default - Failed to create a new customer with name Harsha - ReferenceError: info is not defined - Error
+    at exports.addCustomer (C:\Working\My-Projects\MSM-Workspace\MSM\backend\controllers\customer.js:22:91)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2020-11-27T00:20:26.396] [INFO] default - Connected to Database: MSM
+[2020-11-27T00:20:40.892] [ERROR] default - Failed to create a new customer with name Harsha - ReferenceError: info is not defined - Error
+    at exports.addCustomer (C:\Working\My-Projects\MSM-Workspace\MSM\backend\controllers\customer.js:21:91)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2020-11-27T00:20:55.047] [INFO] default - Connected to Database: MSM
+[2020-11-27T00:21:38.825] [INFO] default - New Customer created with name: Harsha
+[2020-11-27T00:21:57.017] [INFO] default - New Customer created with name: Hidhayath
+[2020-11-27T00:22:11.323] [INFO] default - New Customer created with name: Dharshan
+[2020-11-27T00:22:43.112] [INFO] default - New Customer created with name: Shreyas G C
+[2020-11-27T00:23:22.937] [ERROR] default - Failed to search for customer harsha - SequelizeDatabaseError: An expression of non-boolean type specified in a context where a condition is expected, near 'ILIKE'. - Error
+    at exports.searchCustomer (C:\Working\My-Projects\MSM-Workspace\MSM\backend\controllers\customer.js:42:80)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2020-11-27T00:24:21.912] [INFO] default - Connected to Database: MSM
+[2020-11-27T00:24:25.256] [ERROR] default - Failed to search for customer harsha - SequelizeDatabaseError: An expression of non-boolean type specified in a context where a condition is expected, near 'ILIKE'. - Error
+    at exports.searchCustomer (C:\Working\My-Projects\MSM-Workspace\MSM\backend\controllers\customer.js:42:80)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2020-11-27T00:24:40.733] [ERROR] default - Failed to search for customer harsha - SequelizeDatabaseError: An expression of non-boolean type specified in a context where a condition is expected, near 'ILIKE'. - Error
+    at exports.searchCustomer (C:\Working\My-Projects\MSM-Workspace\MSM\backend\controllers\customer.js:42:80)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2020-11-27T00:25:28.495] [INFO] default - Connected to Database: MSM
+[2020-11-27T00:25:33.264] [INFO] default - Searched for customer harsha
+[2020-11-27T00:25:50.798] [INFO] default - Searched for customer hidhayath
+[2020-11-27T00:26:20.999] [INFO] default - Connected to Database: MSM
+[2020-11-27T00:26:35.286] [INFO] default - Connected to Database: MSM
+[2020-11-27T00:26:45.343] [INFO] default - Searched for customer hidhayath
+[2020-11-27T00:26:49.928] [INFO] default - Searched for customer hidayath
+[2020-11-27T00:26:55.445] [INFO] default - Searched for customer har
+[2020-11-27T00:26:59.379] [INFO] default - Searched for customer harsha
+[2020-11-27T00:27:08.981] [INFO] default - Searched for customer dharshan
+[2020-11-27T00:27:13.237] [INFO] default - Searched for customer G C
+[2020-11-27T00:27:24.187] [INFO] default - Searched for customer harshan
+[2020-11-27T00:27:40.710] [INFO] default - Searched for customer hidhay
+[2020-11-27T00:27:43.702] [INFO] default - Searched for customer hidhaya
+[2020-11-27T00:27:47.324] [INFO] default - Searched for customer hidhayat
+[2020-11-27T00:27:51.081] [INFO] default - Searched for customer hidhayath
+[2020-11-27T00:28:15.351] [INFO] default - Connected to Database: MSM
+[2020-11-27T00:28:18.445] [INFO] default - Searched for customer hidhayath
+[2020-11-27T00:28:22.435] [INFO] default - Searched for customer hidhay
+[2020-11-27T00:28:25.976] [INFO] default - Searched for customer hid
+[2020-11-27T00:28:28.893] [INFO] default - Searched for customer h
+[2020-11-27T00:28:42.345] [INFO] default - Searched for customer nagaraj
+[2020-11-27T00:29:03.567] [INFO] default - Connected to Database: MSM
